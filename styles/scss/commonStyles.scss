@@ -1,0 +1,1045 @@
+/* Fonts Begin */
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+// <width>: Use a value from 75 to 125
+
+body {
+    font-family: "Encode Sans", sans-serif;    
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
+/* Fonts End */
+
+.commonAppBlockLayer {
+    
+
+
+    .blockOne {
+        height: 809px;
+        background: url("../../images/Vector1.png"); 
+        background-size: cover;
+        height: 950px;
+        background-repeat: no-repeat;
+        margin-bottom: 99px;
+        
+        .blockOneLayer {
+            position: relative;
+            padding: 0 146.5px;
+            height: 100%;          
+            
+            .partOneLayer {
+                display: flex;
+                justify-content: space-between;
+
+                .appLogo {
+                    display: flex;
+                    align-items: end;
+                    margin-bottom: 10px;
+                }
+
+            }
+            
+            .appListMenuLayer {
+                display: flex;
+                color: #FFFFFF;
+                margin-top: 66px;
+
+                .itemMenu {
+                    margin-right: 38px;
+                    display: flex;
+                    align-items: center;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    &.download {
+                        padding: 10px 18px;
+                        background-color: #6727AD;
+                        border-radius: 24px;
+                        margin-left: 10px;
+
+                        a {
+                            font-weight: 500;
+                        }                       
+
+                    }
+
+                    a {
+                        color: #FFFFFF;
+                        text-decoration: none;
+                        font-weight: 300;
+                    }
+                }
+
+            }
+            
+            .partTwoLayer {
+                display: flex;
+            
+                .textIntro {
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #FFFFFF;
+
+                    .textIntroLayer {
+
+                        .textHigh {
+                            margin-bottom: 20px;
+
+                            .textIntro {
+                                font-size: 30px;
+                                font-weight: 500;
+                                line-height: 45px;
+                                width: 100%;
+
+                                .boldWord {
+                                    font-weight: 700;
+                                }
+                            }
+
+                        }
+
+                        .textLow {
+                            font-weight: 300;
+
+                            .textIntro {
+                                line-height: 30px;
+                                font-size: 20px;
+                                width: 100%;
+                            }
+
+                        }
+                    }
+
+                }
+            
+                .phoneIntro {
+                    width: 50%;
+                    margin-top: 91px;
+                    margin-left: 240px;
+            
+                    .phoneIntroLayer {
+                        display: flex;
+                        justify-content: center;
+                        z-index: 1;
+                    }
+            
+                }
+            
+            }
+            
+        }
+
+    }
+    
+    .blockTwo {
+        margin-bottom: 223px;
+
+        .blockTwoLayer {
+            padding: 0 146.5px;
+
+            .listFeatures {
+
+                .listFeaturesLayer {
+                    display: flex;
+
+                    .blockList {
+                        margin-right: 20px;
+
+                        &.two .blockListLayer .header {
+                            color: #843FD0;
+                        }
+                        
+                        &:last-child {
+                            margin-right: 0;
+                        }
+
+                        .blockListLayer {
+                            padding: 40px;                            
+                            border-radius: 24px;
+                            box-shadow: 6px 68px 111px 0px #2A1E4933;
+                            background-color: #FFFFFF;                            
+
+                            .image {
+                                margin-bottom: 26px;
+                            }
+
+                            .header {
+                                font-weight: 600;
+                                font-size: 21px;
+                                color: #3D2E87;
+                                line-height: 31.5px;
+                                margin-bottom: 10px;
+                            }
+
+                            .text {
+                                line-height: 24px;
+                                color: #3D2E87;
+                            }
+
+                            .detailed {
+                                display: flex;                                
+                                line-height: 24px;
+                                margin-top: 42px;
+
+                                a {
+                                    text-decoration: none;
+                                    display: inline-flex;
+                                    font-weight: 500;
+                                    color: #3D2E87;
+                                }
+                                
+                                .arrow {
+                                    margin-left: 12px;
+                                }
+
+                            }
+
+                        }
+                        
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .blockThree {
+        background: url("../../images/backgroundBlockThree.png");
+        background-size: contain;
+        margin-bottom: 110px;
+        background-repeat: no-repeat;
+
+        .blockThreeLayer {            
+
+            .commonPartsOne {
+                margin-bottom: 95px;
+
+                .commonPartsOneLayer {
+                    display: flex;
+                    justify-content: space-between;                
+
+                    .part {
+
+                        &.partOne {
+                            display: flex;
+                            align-items: center;
+                            padding-left: 146.5px;
+                            max-width: 370px;
+        
+                            .partOneLayer {
+        
+                                .header {
+                                    color: #3D2E87;
+                                    line-height: 40.8px;
+                                    font-size: 34px;
+                                    font-weight: 600;
+                                    margin-bottom: 35px;
+                                }
+        
+                                .text {
+                                    line-height: 30px;
+                                    font-size: 20px;
+                                }
+        
+                                .detailed {
+                                    display: flex;                           
+                                    line-height: 24px;
+                                    margin-top: 42px;
+        
+                                    a {
+                                        text-decoration: none;
+                                        display: inline-flex;
+                                        font-weight: 500;
+                                        color: #3D2E87;
+                                    }
+                                    
+                                    .arrow {
+                                        margin-left: 12px;
+                                    }
+        
+                                }
+        
+                            }
+                        }
+        
+                        &.partTwo {
+        
+                            img {
+                                height: 538px;
+                            }
+        
+                        }
+        
+                    }
+
+                }
+
+            }
+            
+            .commonPartsTwo {
+
+                .commonPartsTwoLayer {
+                    display: flex;
+
+                    .part {
+                        width: 50%;
+
+                        &.partThree {
+                            display: flex;
+                            justify-content: center;                         
+                        }
+
+                        &.partFour {
+                            display: flex;
+                            align-items: center;
+                            justify-content: end;
+
+                            .partFourLayer {
+                                max-width: 367px;
+                                margin-right: 146.5px;
+
+                                .header {
+                                    color: #3D2E87;
+                                    line-height: 40.8px;
+                                    font-size: 34px;
+                                    font-weight: 600;
+                                    margin-bottom: 35px;
+                                }
+
+                                .text {
+                                    color: #3D2E87;
+                                    line-height: 30px;
+                                    font-size: 20px;
+                                    margin-bottom: 35px;
+                                }
+
+                                .download {
+                                    max-width: 186px;
+
+                                    a {
+                                        padding: 9px 24px;
+                                        background-color: #3D2E87;
+                                        border-radius: 24px;
+                                        display: flex;
+                                        justify-content: center;
+                                        color: #FFFFFF;
+                                        text-decoration: none;
+                                        
+                                        .arrow {
+                                            margin-left: 12px;
+                                        }
+                                    }
+
+                                }
+
+                            }
+
+                        } 
+
+                    }
+
+                }
+
+            } 
+
+        }
+
+    }
+    
+    .blockReviews {
+        .blockReviewsLayer {
+            .lineLayer {
+                display: flex;
+                justify-content: space-between;
+                padding: 0 146.5px;
+                margin-bottom: 214px;
+
+                .headerReviews {
+                    .part {
+                        color: #843FD0;
+                        font-weight: 600;
+                        line-height: 40.8px;
+                        font-size: 34px;
+                    }
+                }
+
+                .arrowsSliderReviews {
+                    display: flex;
+                    align-items: center;                
+                }
+
+            }
+
+            .sliderReviews {
+                .sliderReviewsLayer {
+                    display: flex;
+                    position: relative;
+
+                    &:before {
+                        content: "";
+                        background: linear-gradient(180deg, #422E8C 24.09%, #812AD2 100%);
+                        width: -webkit-fill-available;
+                        height: 274px;
+                        border-radius: 18px;
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        z-index: -1;
+                        margin: 0 65px;
+                        bottom: 123px;
+                    }
+
+                    .slider {
+                        padding: 58px 36px;
+                        box-shadow: 0px 4px 43.6px 0px #00000040;
+                        border-radius: 24px;
+                        margin-right: 22px;
+                        background-color: #FFFFFF;
+                        position: relative;
+                        max-width: 422px;
+
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        
+                        .imageHuman {
+
+                            .imageHumanLayer {
+                                position: absolute;
+                                top: -40px;
+                            }
+
+                        }
+
+                        .nameHuman {
+                            color: #843FD0;
+                            line-height: 31.5px;
+                            font-weight: 600;
+                            font-size: 21px;
+                        }
+
+                        .functionHuman {
+                            color: #3D2E87;
+                            font-weight: 700;
+                            line-height: 24px;
+                            margin-bottom: 20px;
+                        }
+
+                        .textReview {
+                            line-height: 28.8px;
+                            color: #3D2E87;
+                            font-weight: 500;
+                        }
+
+                        .starsReviews {
+                            .starsLayer {
+                                position: absolute;
+                                right: 36px;
+                                top: 58px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .blockPricing {
+
+        .blockPricingLayer {
+
+            .header {
+                color: #843FD0;
+                line-height: 40.8px;
+                font-size: 34px;
+                font-weight: 600;
+                text-align: center;
+                margin: 190px 0 30px 0;
+            }
+
+            .textHeader {
+                color: #3D2E87;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+                margin-bottom: 75px;
+            }
+
+            .listPricing {
+
+                .listPricingLayer {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 128px;
+
+                    .blockCost:first-child {
+                        position: relative;
+                        left: 15px;
+                    }
+
+                    .blockCost:last-child {
+                        position: relative;
+                        right: 15px;
+                    }
+
+                    .main {
+
+                        .blockCostLayer {
+                            padding: 68px 38px;
+                            box-shadow: 0px 14px 48px 0px #00000026;
+                            border-radius: 24px;
+                            width: 365px;
+                            height: 390px;
+                            position: relative;
+                            z-index: 2;
+                            background-color: #FFFFFF;
+
+                            .namePlan {
+                                color: #3D2E87;
+                                line-height: 45px;
+                                font-size: 25px;
+                                font-weight: 400;
+                                display: flex;
+                                justify-content: center;
+                                margin-bottom: 20px;
+                            }
+
+                            .price {
+                                color: #843FD0;
+                                font-size: 40px;
+                                line-height: 60px;
+                                font-weight: 600;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .durationPlan {
+                                color: #843FD0;
+                                font-weight: 500;
+                                line-height: 28.8px;
+                                display: flex;
+                                justify-content: center;
+                                margin-bottom: 20px;
+                            }
+
+                            .description {
+                                color: #3D2E87;
+                                font-size: 18px;
+                                line-height: 32.4px;
+                                text-align: center;
+                                margin-bottom: 68px;
+                            }
+
+                            .startButton {
+                                display: flex;
+                                justify-content: center;                                
+
+                                a {
+                                    color: #FFFFFF;
+                                    border: 1px solid #3D2E87;
+                                    background-color: #3D2E87;
+                                    border-radius: 24px;
+                                    padding: 14px;
+                                    text-align: center;
+                                    font-weight: 600;
+                                    text-decoration: none;
+                                    font-size: 21px;
+                                    width: 223px;
+                                }
+
+                            }
+
+                        }
+                        
+                    }
+
+                    .neighbours {
+
+                        .blockCostLayer {
+                            padding: 52px 25px;
+                            box-shadow: -3px 1px 70px 0px #00000026;
+                            border-radius: 24px;
+                            max-width: 328px;
+
+                            .namePlan {
+                                color: #3D2E87;
+                                line-height: 45px;
+                                font-size: 25px;
+                                font-weight: 400;
+                                display: flex;
+                                justify-content: center;
+                                margin-bottom: 20px;
+                            }
+
+                            .price {
+                                color: #3D2E87;
+                                font-size: 40px;
+                                line-height: 60px;
+                                font-weight: 600;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .durationPlan {
+                                color: #843FD0;
+                                font-weight: 500;
+                                line-height: 28.8px;
+                                display: flex;
+                                justify-content: center;
+                                margin-bottom: 20px;
+                            }
+
+                            .description {
+                                color: #3D2E87;
+                                font-size: 18px;
+                                line-height: 32.4px;
+                                text-align: center;
+                                margin-bottom: 68px;
+                            }
+
+                            .startButton {
+                                display: flex;
+                                justify-content: center;                                
+
+                                a {
+                                    color: #3D2E87;
+                                    border: 1px solid #3D2E87;
+                                    border-radius: 24px;
+                                    padding: 14px;
+                                    text-align: center;
+                                    font-weight: 600;
+                                    text-decoration: none;
+                                    font-size: 21px;
+                                    width: 223px;
+                                }
+
+                            }
+
+                        }
+                        
+                    }                    
+
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .doApp {
+        margin-bottom: 102px;
+
+        .doAppLayer {
+            background: linear-gradient(180deg, #422E8C 24.09%, #812AD2 100%);
+            border-radius: 18px;
+            margin: 0 65px;
+            padding: 69px 0 90px 0;
+
+            .header {
+                font-size: 34px;
+                font-weight: 500;
+                line-height: 51px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: #FFFFFF;
+
+                .boldWord {
+                    font-weight: 700;
+                }
+
+            }
+
+            .description {
+                line-height: 30px;
+                font-size: 20px;
+                color: #FFFFFF;
+                font-weight: 300;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .buttonDownload {
+                display: flex;
+                justify-content: center;
+
+                .buttonDownloadLayer {
+                    padding: 9px 24px;
+                    background-color: #FFFFFF;
+                    max-width: 186px;
+                    border-radius: 24px;
+
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-decoration: none;
+                        color: #843FD0;
+                        font-weight: 500;
+
+                        .arrow {
+                            position: relative;
+                            top: 2px;
+                            margin-left: 8px;
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .footer {
+        margin-bottom: 100px;
+        .footerLayer {
+            .linksMarketStore {
+                .linksMarketStoreLayer {
+                    display: flex;
+                    padding: 0px 139px;
+
+                    .column1 {
+
+                        .logo {
+                            margin-bottom: 40px;
+                        }
+
+                        .marketLinks {
+                            .marketLinksLayer {
+                                display: flex;
+                                margin-bottom: 40px;
+
+                                .playMarket {
+                                    margin-right: 14px;                                    
+                                }
+
+                            }
+                        }
+
+                        .textCopy {
+                            padding-top: 18px;
+                        }
+                    }
+
+                    .listLinksSite {
+                        .listLinksSiteLayer {
+                            display: flex;
+                            margin: 0 60px 0 44px;
+
+                            .linksColumn {                                
+                                padding: 0;
+
+                                li {
+                                    list-style-type: none;
+                                    color: #3D2E87;
+                                    font-weight: 500;
+                                    line-height: 28.8px;                                    
+                                }
+                                
+                            }
+
+                            .column.one, .column.two {
+                                margin-right: 86px;
+                            }
+
+                            .column {
+                                .header {
+                                    color: #843FD0;
+                                    font-weight: 600;
+                                    font-size: 21px;
+                                    line-height: 31.5px;
+                                }                                
+                            }
+
+                        }
+                    }
+
+                    .switchLanguage {
+                        .switchLanguageLayer {
+
+                            a {
+                                display: flex;
+                                text-decoration: none;
+
+                                img {
+                                    margin-right: 10px;
+                                    margin-top: 6px;
+                                }
+    
+                                .textSwitch {
+                                    span {
+                                        display: flex;
+                                        font-weight: 500;
+                                        color: #3D2E87;
+                                        line-height: 28.8px;
+                                    }                            
+                                   
+                                }
+    
+                                .arrowDown {
+                                    margin-left: 21px;
+                                }
+
+                            }                            
+
+                        }
+                    }                
+
+                }
+            }
+        }
+    }
+
+}
+
+
+/* Media requests BEGIN */
+
+@media screen and (max-width: 390px) {
+    
+
+    .commonAppBlockLayer {
+        .blockOne .blockOneLayer {
+            padding: 0 20px;
+
+            .partOneLayer {
+                .appListMenu {
+                    .appListMenuLayer {
+                        margin-top: 37px;
+                    
+                        .itemMenu {
+                            display: none;
+                
+                        }
+                
+                        .itemMenu.download {
+                            display: block;
+                        }
+                    }
+                }
+                    
+            }    
+            
+            .partTwoLayer {
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 92px;
+
+                .textIntro, .phoneIntro {
+                    width: auto;
+                    margin-left: 0;
+                }        
+
+            }
+        }
+
+        .blockTwo {
+            margin-bottom: 100px;
+
+            .blockTwoLayer {
+                padding: 0;
+
+                .listFeatures .listFeaturesLayer {
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    .blockList {
+                        max-width: 324px;
+                        margin-bottom: 18px;
+                        margin-right: 0;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                }
+
+            }
+            
+        }
+
+        .blockThree {
+            padding: 0 20px;
+
+            .blockThreeLayer {
+                .commonPartsOne {
+                    .commonPartsOneLayer {
+                        flex-wrap: wrap;
+                        .part.partOne {
+                            padding: 0;
+
+                            .partOneLayer {
+                                margin-bottom: 50px;
+                            }
+
+                        }
+                        .part.partTwo {
+                            img {
+                                max-width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+                .commonPartsTwo {
+                    .commonPartsTwoLayer {
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        .part {
+                            width: auto;
+
+                            &.partThree {
+                                margin-bottom: 20px;
+                            }
+
+                            &.partFour {
+                                .partFourLayer {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .blockReviews {
+            padding: 0 20px;
+            margin-bottom: -100px;
+
+            .blockReviewsLayer {
+
+                .lineLayer {
+                    padding: 0;
+                    flex-wrap: wrap;
+                    margin: 0;
+
+                    .headerReviews {
+                        margin-bottom: 40px;
+                    }
+
+                }
+
+                .sliderReviews {
+                    margin-top: 108px;
+                    .sliderReviewsLayer {
+                        flex-wrap: wrap;
+
+                        &:before {
+                            width: 100%;
+                            margin: 0;
+                            top: -70px;
+                        }
+
+                        .slider {
+                            padding: 40px 20px 20px 20px;
+                            margin: 0;
+
+                            &.part2, &.part3 {
+                                display: none;
+                            }
+
+                        }
+
+                    }
+                }
+
+            }
+
+        }
+
+        .blockPricing {
+            padding: 0 20px;
+            .blockPricingLayer {
+                .listPricing {
+                    .listPricingLayer {
+                        flex-wrap: wrap;
+
+                        .blockCost {
+                            margin-bottom: 28px;
+                        }
+
+                        .blockCost:first-child {
+                            left: 0;
+                        }
+
+                        .blockCost:last-child {
+                            right: 0;
+                            margin-bottom: 0;
+                        }
+
+                        .blockCost.main {
+                            .blockCostLayer {
+                                padding: 52px 0;
+                            }
+                        }                        
+
+                    }
+                }
+            }
+        }
+
+        .doApp {
+            .doAppLayer {
+                margin: 0;
+                border-radius: 0;
+                padding: 50px 20px;
+            }
+        }
+
+        .footer {
+            .footerLayer {
+                .linksMarketStore {
+                    .linksMarketStoreLayer {
+                        flex-wrap: wrap;
+                        padding: 0;
+                        justify-content: center;
+
+                        .column1 {
+                            text-align: center;
+                            margin-bottom: 40px;
+                        }
+
+
+                        .listLinksSite {
+                            .listLinksSiteLayer {
+                                flex-wrap: wrap;
+                                margin: 0 20px;
+                                
+                                .column {
+                                    margin-right: 17px!important;
+
+                                    &:last-child {
+                                        margin-right: 0!important;
+                                    }
+
+                                }
+
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    
+}
+
+/* Media requests END */

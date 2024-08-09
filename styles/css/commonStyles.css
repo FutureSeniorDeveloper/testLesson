@@ -1,0 +1,712 @@
+/* Fonts Begin */
+body {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+/* Fonts End */
+.commonAppBlockLayer .blockOne {
+  height: 809px;
+  background: url("../../images/Vector1.png");
+  background-size: cover;
+  height: 950px;
+  background-repeat: no-repeat;
+  margin-bottom: 99px;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer {
+  position: relative;
+  padding: 0 146.5px;
+  height: 100%;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partOneLayer {
+  display: flex;
+  justify-content: space-between;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partOneLayer .appLogo {
+  display: flex;
+  align-items: end;
+  margin-bottom: 10px;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .appListMenuLayer {
+  display: flex;
+  color: #FFFFFF;
+  margin-top: 66px;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .appListMenuLayer .itemMenu {
+  margin-right: 38px;
+  display: flex;
+  align-items: center;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .appListMenuLayer .itemMenu:last-child {
+  margin-right: 0;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .appListMenuLayer .itemMenu.download {
+  padding: 10px 18px;
+  background-color: #6727AD;
+  border-radius: 24px;
+  margin-left: 10px;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .appListMenuLayer .itemMenu.download a {
+  font-weight: 500;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .appListMenuLayer .itemMenu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer {
+  display: flex;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .textIntro {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .textIntro .textIntroLayer .textHigh {
+  margin-bottom: 20px;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .textIntro .textIntroLayer .textHigh .textIntro {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  width: 100%;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .textIntro .textIntroLayer .textHigh .textIntro .boldWord {
+  font-weight: 700;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .textIntro .textIntroLayer .textLow {
+  font-weight: 300;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .textIntro .textIntroLayer .textLow .textIntro {
+  line-height: 30px;
+  font-size: 20px;
+  width: 100%;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .phoneIntro {
+  width: 50%;
+  margin-top: 91px;
+  margin-left: 240px;
+}
+.commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .phoneIntro .phoneIntroLayer {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.commonAppBlockLayer .blockTwo {
+  margin-bottom: 223px;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer {
+  padding: 0 146.5px;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer {
+  display: flex;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList {
+  margin-right: 20px;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList.two .blockListLayer .header {
+  color: #843FD0;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList:last-child {
+  margin-right: 0;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList .blockListLayer {
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 6px 68px 111px 0px rgba(42, 30, 73, 0.2);
+  background-color: #FFFFFF;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList .blockListLayer .image {
+  margin-bottom: 26px;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList .blockListLayer .header {
+  font-weight: 600;
+  font-size: 21px;
+  color: #3D2E87;
+  line-height: 31.5px;
+  margin-bottom: 10px;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList .blockListLayer .text {
+  line-height: 24px;
+  color: #3D2E87;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList .blockListLayer .detailed {
+  display: flex;
+  line-height: 24px;
+  margin-top: 42px;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList .blockListLayer .detailed a {
+  text-decoration: none;
+  display: inline-flex;
+  font-weight: 500;
+  color: #3D2E87;
+}
+.commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList .blockListLayer .detailed .arrow {
+  margin-left: 12px;
+}
+.commonAppBlockLayer .blockThree {
+  background: url("../../images/backgroundBlockThree.png");
+  background-size: contain;
+  margin-bottom: 110px;
+  background-repeat: no-repeat;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne {
+  margin-bottom: 95px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer {
+  display: flex;
+  justify-content: space-between;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partOne {
+  display: flex;
+  align-items: center;
+  padding-left: 146.5px;
+  max-width: 370px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partOne .partOneLayer .header {
+  color: #3D2E87;
+  line-height: 40.8px;
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partOne .partOneLayer .text {
+  line-height: 30px;
+  font-size: 20px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partOne .partOneLayer .detailed {
+  display: flex;
+  line-height: 24px;
+  margin-top: 42px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partOne .partOneLayer .detailed a {
+  text-decoration: none;
+  display: inline-flex;
+  font-weight: 500;
+  color: #3D2E87;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partOne .partOneLayer .detailed .arrow {
+  margin-left: 12px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partTwo img {
+  height: 538px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer {
+  display: flex;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part {
+  width: 50%;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partThree {
+  display: flex;
+  justify-content: center;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partFour {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partFour .partFourLayer {
+  max-width: 367px;
+  margin-right: 146.5px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partFour .partFourLayer .header {
+  color: #3D2E87;
+  line-height: 40.8px;
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partFour .partFourLayer .text {
+  color: #3D2E87;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partFour .partFourLayer .download {
+  max-width: 186px;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partFour .partFourLayer .download a {
+  padding: 9px 24px;
+  background-color: #3D2E87;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partFour .partFourLayer .download a .arrow {
+  margin-left: 12px;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .lineLayer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 146.5px;
+  margin-bottom: 214px;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .lineLayer .headerReviews .part {
+  color: #843FD0;
+  font-weight: 600;
+  line-height: 40.8px;
+  font-size: 34px;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .lineLayer .arrowsSliderReviews {
+  display: flex;
+  align-items: center;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer {
+  display: flex;
+  position: relative;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer:before {
+  content: "";
+  background: linear-gradient(180deg, #422E8C 24.09%, #812AD2 100%);
+  width: -webkit-fill-available;
+  height: 274px;
+  border-radius: 18px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  margin: 0 65px;
+  bottom: 123px;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider {
+  padding: 58px 36px;
+  box-shadow: 0px 4px 43.6px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 24px;
+  margin-right: 22px;
+  background-color: #FFFFFF;
+  position: relative;
+  max-width: 422px;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider:last-child {
+  margin-right: 0;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider .imageHuman .imageHumanLayer {
+  position: absolute;
+  top: -40px;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider .nameHuman {
+  color: #843FD0;
+  line-height: 31.5px;
+  font-weight: 600;
+  font-size: 21px;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider .functionHuman {
+  color: #3D2E87;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider .textReview {
+  line-height: 28.8px;
+  color: #3D2E87;
+  font-weight: 500;
+}
+.commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider .starsReviews .starsLayer {
+  position: absolute;
+  right: 36px;
+  top: 58px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .header {
+  color: #843FD0;
+  line-height: 40.8px;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+  margin: 190px 0 30px 0;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .textHeader {
+  color: #3D2E87;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 128px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .blockCost:first-child {
+  position: relative;
+  left: 15px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .blockCost:last-child {
+  position: relative;
+  right: 15px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .main .blockCostLayer {
+  padding: 68px 38px;
+  box-shadow: 0px 14px 48px 0px rgba(0, 0, 0, 0.1490196078);
+  border-radius: 24px;
+  width: 365px;
+  height: 390px;
+  position: relative;
+  z-index: 2;
+  background-color: #FFFFFF;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .main .blockCostLayer .namePlan {
+  color: #3D2E87;
+  line-height: 45px;
+  font-size: 25px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .main .blockCostLayer .price {
+  color: #843FD0;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .main .blockCostLayer .durationPlan {
+  color: #843FD0;
+  font-weight: 500;
+  line-height: 28.8px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .main .blockCostLayer .description {
+  color: #3D2E87;
+  font-size: 18px;
+  line-height: 32.4px;
+  text-align: center;
+  margin-bottom: 68px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .main .blockCostLayer .startButton {
+  display: flex;
+  justify-content: center;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .main .blockCostLayer .startButton a {
+  color: #FFFFFF;
+  border: 1px solid #3D2E87;
+  background-color: #3D2E87;
+  border-radius: 24px;
+  padding: 14px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 21px;
+  width: 223px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .neighbours .blockCostLayer {
+  padding: 52px 25px;
+  box-shadow: -3px 1px 70px 0px rgba(0, 0, 0, 0.1490196078);
+  border-radius: 24px;
+  max-width: 328px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .neighbours .blockCostLayer .namePlan {
+  color: #3D2E87;
+  line-height: 45px;
+  font-size: 25px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .neighbours .blockCostLayer .price {
+  color: #3D2E87;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .neighbours .blockCostLayer .durationPlan {
+  color: #843FD0;
+  font-weight: 500;
+  line-height: 28.8px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .neighbours .blockCostLayer .description {
+  color: #3D2E87;
+  font-size: 18px;
+  line-height: 32.4px;
+  text-align: center;
+  margin-bottom: 68px;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .neighbours .blockCostLayer .startButton {
+  display: flex;
+  justify-content: center;
+}
+.commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .neighbours .blockCostLayer .startButton a {
+  color: #3D2E87;
+  border: 1px solid #3D2E87;
+  border-radius: 24px;
+  padding: 14px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 21px;
+  width: 223px;
+}
+.commonAppBlockLayer .doApp {
+  margin-bottom: 102px;
+}
+.commonAppBlockLayer .doApp .doAppLayer {
+  background: linear-gradient(180deg, #422E8C 24.09%, #812AD2 100%);
+  border-radius: 18px;
+  margin: 0 65px;
+  padding: 69px 0 90px 0;
+}
+.commonAppBlockLayer .doApp .doAppLayer .header {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 51px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.commonAppBlockLayer .doApp .doAppLayer .header .boldWord {
+  font-weight: 700;
+}
+.commonAppBlockLayer .doApp .doAppLayer .description {
+  line-height: 30px;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.commonAppBlockLayer .doApp .doAppLayer .buttonDownload {
+  display: flex;
+  justify-content: center;
+}
+.commonAppBlockLayer .doApp .doAppLayer .buttonDownload .buttonDownloadLayer {
+  padding: 9px 24px;
+  background-color: #FFFFFF;
+  max-width: 186px;
+  border-radius: 24px;
+}
+.commonAppBlockLayer .doApp .doAppLayer .buttonDownload .buttonDownloadLayer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #843FD0;
+  font-weight: 500;
+}
+.commonAppBlockLayer .doApp .doAppLayer .buttonDownload .buttonDownloadLayer a .arrow {
+  position: relative;
+  top: 2px;
+  margin-left: 8px;
+}
+.commonAppBlockLayer .footer {
+  margin-bottom: 100px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer {
+  display: flex;
+  padding: 0px 139px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .column1 .logo {
+  margin-bottom: 40px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .column1 .marketLinks .marketLinksLayer {
+  display: flex;
+  margin-bottom: 40px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .column1 .marketLinks .marketLinksLayer .playMarket {
+  margin-right: 14px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .column1 .textCopy {
+  padding-top: 18px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .listLinksSite .listLinksSiteLayer {
+  display: flex;
+  margin: 0 60px 0 44px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .listLinksSite .listLinksSiteLayer .linksColumn {
+  padding: 0;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .listLinksSite .listLinksSiteLayer .linksColumn li {
+  list-style-type: none;
+  color: #3D2E87;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .listLinksSite .listLinksSiteLayer .column.one, .commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .listLinksSite .listLinksSiteLayer .column.two {
+  margin-right: 86px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .listLinksSite .listLinksSiteLayer .column .header {
+  color: #843FD0;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 31.5px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .switchLanguage .switchLanguageLayer a {
+  display: flex;
+  text-decoration: none;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .switchLanguage .switchLanguageLayer a img {
+  margin-right: 10px;
+  margin-top: 6px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .switchLanguage .switchLanguageLayer a .textSwitch span {
+  display: flex;
+  font-weight: 500;
+  color: #3D2E87;
+  line-height: 28.8px;
+}
+.commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .switchLanguage .switchLanguageLayer a .arrowDown {
+  margin-left: 21px;
+}
+
+/* Media requests BEGIN */
+@media screen and (max-width: 390px) {
+  .commonAppBlockLayer .blockOne .blockOneLayer {
+    padding: 0 20px;
+  }
+  .commonAppBlockLayer .blockOne .blockOneLayer .partOneLayer .appListMenu .appListMenuLayer {
+    margin-top: 37px;
+  }
+  .commonAppBlockLayer .blockOne .blockOneLayer .partOneLayer .appListMenu .appListMenuLayer .itemMenu {
+    display: none;
+  }
+  .commonAppBlockLayer .blockOne .blockOneLayer .partOneLayer .appListMenu .appListMenuLayer .itemMenu.download {
+    display: block;
+  }
+  .commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 92px;
+  }
+  .commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .textIntro, .commonAppBlockLayer .blockOne .blockOneLayer .partTwoLayer .phoneIntro {
+    width: auto;
+    margin-left: 0;
+  }
+  .commonAppBlockLayer .blockTwo {
+    margin-bottom: 100px;
+  }
+  .commonAppBlockLayer .blockTwo .blockTwoLayer {
+    padding: 0;
+  }
+  .commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList {
+    max-width: 324px;
+    margin-bottom: 18px;
+    margin-right: 0;
+  }
+  .commonAppBlockLayer .blockTwo .blockTwoLayer .listFeatures .listFeaturesLayer .blockList:last-child {
+    margin-bottom: 0;
+  }
+  .commonAppBlockLayer .blockThree {
+    padding: 0 20px;
+  }
+  .commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer {
+    flex-wrap: wrap;
+  }
+  .commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partOne {
+    padding: 0;
+  }
+  .commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partOne .partOneLayer {
+    margin-bottom: 50px;
+  }
+  .commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsOne .commonPartsOneLayer .part.partTwo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part {
+    width: auto;
+  }
+  .commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partThree {
+    margin-bottom: 20px;
+  }
+  .commonAppBlockLayer .blockThree .blockThreeLayer .commonPartsTwo .commonPartsTwoLayer .part.partFour .partFourLayer {
+    margin: 0;
+  }
+  .commonAppBlockLayer .blockReviews {
+    padding: 0 20px;
+    margin-bottom: -100px;
+  }
+  .commonAppBlockLayer .blockReviews .blockReviewsLayer .lineLayer {
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .commonAppBlockLayer .blockReviews .blockReviewsLayer .lineLayer .headerReviews {
+    margin-bottom: 40px;
+  }
+  .commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews {
+    margin-top: 108px;
+  }
+  .commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer {
+    flex-wrap: wrap;
+  }
+  .commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer:before {
+    width: 100%;
+    margin: 0;
+    top: -70px;
+  }
+  .commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider {
+    padding: 40px 20px 20px 20px;
+    margin: 0;
+  }
+  .commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider.part2, .commonAppBlockLayer .blockReviews .blockReviewsLayer .sliderReviews .sliderReviewsLayer .slider.part3 {
+    display: none;
+  }
+  .commonAppBlockLayer .blockPricing {
+    padding: 0 20px;
+  }
+  .commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer {
+    flex-wrap: wrap;
+  }
+  .commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .blockCost {
+    margin-bottom: 28px;
+  }
+  .commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .blockCost:first-child {
+    left: 0;
+  }
+  .commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .blockCost:last-child {
+    right: 0;
+    margin-bottom: 0;
+  }
+  .commonAppBlockLayer .blockPricing .blockPricingLayer .listPricing .listPricingLayer .blockCost.main .blockCostLayer {
+    padding: 52px 0;
+  }
+  .commonAppBlockLayer .doApp .doAppLayer {
+    margin: 0;
+    border-radius: 0;
+    padding: 50px 20px;
+  }
+  .commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer {
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+  }
+  .commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .column1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .listLinksSite .listLinksSiteLayer {
+    flex-wrap: wrap;
+    margin: 0 20px;
+  }
+  .commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .listLinksSite .listLinksSiteLayer .column {
+    margin-right: 17px !important;
+  }
+  .commonAppBlockLayer .footer .footerLayer .linksMarketStore .linksMarketStoreLayer .listLinksSite .listLinksSiteLayer .column:last-child {
+    margin-right: 0 !important;
+  }
+}
+/* Media requests END */
+
+/*# sourceMappingURL=commonStyles.css.map */
